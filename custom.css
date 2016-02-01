@@ -6,6 +6,56 @@
  * Licensed under MIT 
  * Based on Bootstrap v3.3.4
 */
+#pad-boxes {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (max-width: 767px) {
+  .resize {
+    position: absolute;
+    top: 0em;
+    left: -17.5em;
+    width: 60em;
+  }
+  .resize > img {
+    width: 40%;
+  }
+}
+/* tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+  .resize {
+    position: absolute;
+    top: -9em;
+    width: 75em;
+  }
+  .resize > img {
+    width: 80%;
+  }
+}
+/* laptops */
+@media (max-width: 1023px) and (min-width: 992px) {
+  .resize {
+    position: absolute;
+    top: -10em;
+    width: 75em;
+  }
+  .resize > img {
+    width: 20%;
+  }
+}
+/* desktops */
+@media (min-width: 1024px) {
+  .slider-size {
+    position: absolute;
+    top: -90em;
+    width: 100em;
+  }
+  .resize > img {
+    position: absolute;
+    top: -4em;
+    width: 100%;
+  }
+}
 #about-me {
   background: transparent;
   padding-top: 10px;
