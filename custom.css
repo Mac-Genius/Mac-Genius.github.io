@@ -14,7 +14,7 @@
   .resize {
     position: absolute;
     top: 0em;
-    left: -17.5em;
+    left: center;
     width: 60em;
   }
   .resize > img {
@@ -26,6 +26,7 @@
   .resize {
     position: absolute;
     top: -9em;
+    left: center;
     width: 75em;
   }
   .resize > img {
@@ -37,10 +38,12 @@
   .resize {
     position: absolute;
     top: -10em;
+    left: center;
     width: 75em;
   }
   .resize > img {
     width: 20%;
+    left: center;
   }
 }
 /* desktops */
@@ -48,11 +51,13 @@
   .slider-size {
     position: absolute;
     top: -90em;
+    left: center;
     width: 100em;
   }
   .resize > img {
     position: absolute;
     top: -4em;
+    left: center;
     width: 100%;
   }
 }
