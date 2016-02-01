@@ -6,18 +6,6 @@
  * Licensed under MIT 
  * Based on Bootstrap v3.3.4
 */
-#about-me {
-  background: transparent;
-  padding-top: 10px;
-}
-#project-heading {
-  padding-bottom: 10px;
-}
-#mcstats {
-  float: right;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 /* Add custom CSS classes here 
  * 
  * img {
@@ -4398,8 +4386,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #404852;
-  border-color: #31383f;
+  background-color: #272b30;
+  border-color: #181b1e;
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
@@ -4424,7 +4412,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #31383f;
+  background-color: #181b1e;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4444,12 +4432,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #31383f;
+  border-color: #181b1e;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #31383f;
+  background-color: #181b1e;
   color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -4465,7 +4453,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
-    background-color: #31383f;
+    background-color: #181b1e;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
