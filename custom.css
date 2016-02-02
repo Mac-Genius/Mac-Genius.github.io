@@ -6,19 +6,66 @@
  * Licensed under MIT 
  * Based on Bootstrap v3.3.4
 */
+#button-box {
+  padding-top: 20px;
+  padding-bottom: 9px;
+}
+#request-break {
+  padding-top: 0px !important;
+  margin-top: 0px;
+}
+#request-github {
+  background-color: #B022F2;
+  border-color: #B022F2;
+}
+#request-github:hover {
+  background-color: #8F1BC4;
+  border-color: #8F1BC4;
+}
+#request-bukkit {
+  background-color: #2096E1;
+  border-color: #2096E1;
+}
+#request-bukkit:hover {
+  background-color: #1D80BF;
+  border-color: #1D80BF;
+}
+#request-para {
+  font-size: 20px !important;
+}
+#request-box {
+  border-style: solid !important;
+  border: 4px;
+  border-color: #575757;
+}
 #pad-boxes {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 @media (max-width: 767px) {
   .resize {
-    position: absolute;
+    position: relative;
     top: 0em;
-    left: center;
+    margin: auto;
     width: 60em;
+    left: -15em;
   }
   .resize > img {
     width: 40%;
+  }
+  #pad-boxes {
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  #mcstats {
+    float: none;
+    display: block;
+  }
+  #learn-more {
+    display: block;
+    float: left;
   }
 }
 /* tablets */
@@ -26,11 +73,17 @@
   .resize {
     position: absolute;
     top: -9em;
-    left: center;
     width: 75em;
+    left: -15em;
   }
   .resize > img {
     width: 80%;
+  }
+  #pad-boxes {
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
 }
 /* laptops */
@@ -38,7 +91,7 @@
   .resize {
     position: absolute;
     top: -10em;
-    left: center;
+    float: center;
     width: 75em;
   }
   .resize > img {
@@ -69,9 +122,24 @@
   padding-bottom: 10px;
 }
 #mcstats {
-  float: right;
+  float: left;
   padding-left: 20px;
   padding-right: 20px;
+}
+#bukkit {
+  padding-left: 27px;
+  padding-right: 27px;
+  background-color: #2096E1;
+  float: right;
+  border-color: #2096E1;
+}
+#spigot {
+  padding-left: 28px;
+  padding-right: 28px;
+  float: right;
+}
+#second-row {
+  padding: 0px;
 }
 #carousel-scale {
   height: 33em;
