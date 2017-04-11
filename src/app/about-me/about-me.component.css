@@ -1,0 +1,26 @@
+.profile-picture {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.custom-jumbotron {
+	background-color: #404852;
+	padding-top: 35px;
+}
+
+.bruh {
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.minecraft-pic {
+	height: 100%;
+	width: 100%;
+}
+
+.second {
+	padding-top: 30px;
+}

@@ -1,2 +1,3 @@
 # Mac-Genius.github.io
-Plugin stuff
+
+A simple website that displays what I do.

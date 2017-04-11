@@ -1,0 +1,55 @@
+#button-box {
+  padding-top: 16px;
+  padding-bottom: 13px;
+  text-align: right;
+}
+#request-break {
+  padding-top: 0px !important;
+  margin-top: 0px;
+}
+#request-github {
+  background-color: #B022F2;
+  border-color: #B022F2;
+  margin: auto;
+}
+#request-github:hover {
+  background-color: #8F1BC4;
+  border-color: #8F1BC4;
+}
+#request-bukkit {
+  background-color: #2096E1;
+  border-color: #2096E1;
+  margin: auto;
+}
+#request-bukkit:hover {
+  background-color: #1D80BF;
+  border-color: #1D80BF;
+}
+#request-para {
+  font-size: 20px !important;
+}
+#request-box-top {
+  border-style: solid !important;
+  border: 4px;
+  border-top: 4px;
+  border-bottom: 2px;
+  border-color: #575757;
+}
+#request-box {
+  border-style: solid !important;
+  border: 4px;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-color: #575757;
+}
+#request-box-bottom {
+  border-style: solid !important;
+  border: 4px;
+  border-top: 2px;
+  border-bottom: 4px;
+  border-color: #575757;
+}
+#pad-boxes {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

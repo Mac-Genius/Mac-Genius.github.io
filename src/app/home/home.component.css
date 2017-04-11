@@ -1,0 +1,97 @@
+@media (max-width: 767px) {
+  .resize {
+    position: relative;
+    top: 0em;
+    margin: auto;
+    width: 60em;
+    left: -15em;
+  }
+  .resize > img {
+    width: 40%;
+  }
+  #pad-boxes {
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  #mcstats {
+    float: none;
+    display: block;
+  }
+  #learn-more {
+    display: block;
+    float: left;
+  }
+}
+/* tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+  .resize {
+    position: absolute;
+    top: -9em;
+    width: 75em;
+    left: -15em;
+  }
+  .resize > img {
+    width: 80%;
+  }
+  #pad-boxes {
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+}
+/* laptops */
+@media (max-width: 1023px) and (min-width: 992px) {
+  .resize {
+    position: absolute;
+    top: -10em;
+    float: center;
+    width: 75em;
+  }
+  .resize > img {
+    width: 20%;
+    left: center;
+  }
+}
+/* desktops */
+@media (min-width: 1024px) {
+  .slider-size {
+    position: absolute;
+    top: -90em;
+    left: center;
+    width: 100em;
+  }
+  .resize > img {
+    position: absolute;
+    top: -4em;
+    left: center;
+    width: 100%;
+  }
+}
+
+.custom-jumbotron {
+	background-color: #404852;
+}
+
+.custom-setction {
+	height: 460px;
+}
+
+#carousel-scale {
+  height: 33em;
+}
+#carousel-image {
+  height: 50px;
+  position: fixed;
+  up: 100px;
+  height: 10px;
+}
+.change-image {
+  height: 100px;
+}
+
+.about-section {
+	padding-top: 30px;
+}
