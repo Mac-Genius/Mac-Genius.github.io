@@ -1,0 +1,78 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Have Questions?</h1>
+      <p class="intro">
+        Leave a message for me and I'll try to get back to you
+        as soon as possible!
+        </p>
+        <hr>
+    </div>
+  </div>
+</div>
+<div class="container custom">
+  <div class="row">
+    <div class="col-md-6">
+      <form name="contactMe">
+        <div class="form-group">
+          <label for="userName" class="control-label name-label">Name</label>
+          <input class="form-control" name="displayname" id="newUserDisplayName" type="text"
+              placeholder="John Harrison" [(ngModel)]="name" required
+              #displayName="ngModel" autocomplete="off">
+          
+          <div class="" *ngIf="displayName.errors
+            && (displayName.dirty || displayName.touched)">
+            <div *ngIf="displayName.errors.required"
+                class="label label-danger">Required</div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="email" class="control-label name-label">Email</label>
+          <input class="form-control" name="email" id="email" type="text"
+              placeholder="me@yourDomain.com" [(ngModel)]="email" required
+              #emailInput="ngModel" autocomplete="off" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$">
+          <div class="" *ngIf="emailInput.errors
+            && (emailInput.dirty || emailInput.touched)">
+            <div *ngIf="emailInput.errors.required"
+                class="label label-danger">Required</div>
+            <div *ngIf="emailInput.errors.pattern"
+                class="label label-danger">Invalid Email</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="subject" class="control-label name-label">Subject</label>
+          <input class="form-control" name="subject" id="subject" type="text"
+              [(ngModel)]="subject" required
+              #subjectInput="ngModel" autocomplete="off">
+          <div class="" *ngIf="subjectInput.errors
+            && (subjectInput.dirty || subjectInput.touched)">
+            <div *ngIf="subjectInput.errors.required"
+                class="label label-danger">Required</div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message" class="control-label name-label">Message</label>
+          <textarea class="form-control message-box" name="message" id="message" type="text"
+              placeholder="..." [(ngModel)]="message" required
+              #messageInput="ngModel" autocomplete="off"></textarea>
+          <div class="" *ngIf="messageInput.errors
+            && (messageInput.dirty || messageInput.touched)">
+            <div *ngIf="messageInput.errors.required"
+                class="label label-danger">Required</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+            <button type="submit" class="btn btn-success submit-button"
+              (click)="sendMessage(displayName, emailInput, subjectInput, messageInput)" [disabled]="displayName.errors || emailInput.errors
+                || subjectInput.errors || messageInput.errors">Send!</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

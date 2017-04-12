@@ -1,0 +1,21 @@
+.intro {
+	font-size: 20px;
+}
+
+.custom {
+	padding-top: 20px;
+}
+
+.name-label {
+	font-size: 20px;
+}
+
+.submit-button {
+	margin-top: 20px;
+}
+
+.message-box {
+	resize: vertical;
+	height: 200px;
+	max-height: 400px;
+}
